@@ -1,4 +1,4 @@
-/* Ogólne ustawienia */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-/* Nawigacja */
+
 .navbar {
     background-color: #333;
     padding: 1em;
@@ -35,7 +35,7 @@ body {
     text-decoration: underline;
 }
 
-/* Nagłówek */
+
 .header {
     background-color: #f4f4f4;
     padding: 2em;
@@ -46,7 +46,7 @@ body {
     margin-bottom: 0.5em;
 }
 
-/* Główna treść */
+
 .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -84,7 +84,6 @@ body {
     background-color: #218838;
 }
 
-/* Stopka */
 .footer {
     background-color: #333;
     color: white;
@@ -92,7 +91,7 @@ body {
     padding: 1em;
 }
 
-/* Responsywność */
+
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
